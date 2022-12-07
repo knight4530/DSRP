@@ -1,3 +1,5 @@
+
+
 /*******************************************************************************
  *
  *
@@ -5,6 +7,7 @@
  *
  *
  */
+#include <stdio.h>
 #include "nand_flash.h"
 #include "firmware/drivers/mss_gpio/mss_gpio.h"
 #include "firmware/CMSIS/system_m2sxxx.h"

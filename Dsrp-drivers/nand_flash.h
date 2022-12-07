@@ -1,3 +1,6 @@
+#ifndef _NAND_FLASH_H_
+    #define _NAND_FLASH_H_
+
 /*******************************************************************************
  *
  *
@@ -52,3 +55,5 @@ static void Copyback_Read(void);
 static void Copyback_Read_Multiplane(void);
 static void Copyback_Program(void);
 static void Copyback_Program_Multiplane(void);
+
+#endif
